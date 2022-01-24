@@ -1,13 +1,20 @@
-import { Route } from "react-router-dom"
+import { Route, Switch } from "react-router-dom"
 import Video from "./components/Video"
-import Nav from "./components/Nav"
+import Entry from "./pages/Entry";
+import Main from "./pages/Main"
 import "./App.css"
 
 function App() {
   return (
     <div className="App">
-        <Video />
-        <Nav />
+      <Switch>
+        <Route exact lpath="/">
+          <Entry />
+        </Route>
+        <Route path="/nicole-baird">
+          <Main />
+        </Route>
+      </Switch>
     </div>
   );
 }
