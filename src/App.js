@@ -1,13 +1,13 @@
 import { Route } from "react-router-dom"
-import Entry from "./pages/Entry"
+import Video from "./components/Video"
+import Nav from "./components/Nav"
 import "./App.css"
 
 function App() {
   return (
     <div className="App">
-      <Route path="/">
-        <Entry />
-      </Route>
+        <Video />
+        <Nav />
     </div>
   );
 }

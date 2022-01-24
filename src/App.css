@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: "LEMONMILK - Med";
+    font-family: "LEMONMILK-MED";
     src: url("../public/LEMONMILK-Medium.otf");
 }
 
@@ -22,7 +22,7 @@
     height: 100vh;
     object-fit: cover;
     position: fixed;
-    left: 0px;
+    left: 0;
     right: 0;
     top: 0;
     bottom: 0;
@@ -61,7 +61,32 @@ h1 {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-8px);
+      transform: translateY(-7px);
     }
+}
+
+.nav {
+    background-color: black;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: LEMONMILK-MED;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.nav-links {
+    color: white;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 50px;
+    font-size: 20px;
 }
 
