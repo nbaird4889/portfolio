@@ -34,7 +34,7 @@
 .entry-details {
       font-family: LEMONMILK;
       color: white;
-      padding-top: 170px;
+      padding-top: 200px;
       text-align: center;
 }
 
@@ -201,9 +201,9 @@ hr {
 .record-container {
     display: flex;
     justify-content: center;
-    padding: 30px 60px;
+    padding: 50px 60px;
     flex-wrap: wrap;
-    column-gap: 100px;
+    column-gap: 130px;
     row-gap: 60px;
 }
 
@@ -223,7 +223,7 @@ hr {
     font-family: LEMONMILK;
     font-size: 28px;
     letter-spacing: 2px;
-    padding: 25px 15px;
+    padding: 45px 15px 20px 15px;
     color: white;
 }
 
@@ -245,6 +245,20 @@ hr {
 .contact-icon {
     max-width: 200px;
     height: auto;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
+
+/* ===========Footer========== */
+.footer {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    height: 100px
+}
+
+
 

@@ -4,6 +4,7 @@ import About from "../components/About"
 import Divider from "../components/Divider";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer"
 
 
 const Main = (props) => {
@@ -15,6 +16,7 @@ const Main = (props) => {
         <Divider />
         <Portfolio />
         <Contact />
+        <Footer />
         </div>
     );
 };
