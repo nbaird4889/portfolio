@@ -134,19 +134,20 @@ h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 50px;
+    grid-column-gap: 40px;
     padding-top: 60px;
 }
 
 .summary {
     grid-area: 1 / 1 / 2 / 2;
     text-align: center;
-    padding: 0px 50px;
+    padding: 0px 60px;
 }
 
 .skills {
     grid-area: 1 / 2 / 2 / 3;
     text-align: center;
+    padding: 0px 60px;
 }
 
 .skill-image {
@@ -160,6 +161,7 @@ h1 {
     font-size: 28px;
     letter-spacing: 2px;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .about-details {
@@ -184,12 +186,30 @@ h1 {
     cursor: pointer;
 }
 
+/* ===========Divider========== */
+
 hr {
     width: 80%;
     margin: auto;
     border: 2px solid black;
     border-radius: 8px;
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+/* ===========Portfolio========== */
+.record-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px 60px;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 60px;
+}
+
+.record {
+    max-width: 300px;
+    height: auto;
 }
 
 

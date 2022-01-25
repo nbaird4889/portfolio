@@ -2,6 +2,7 @@ import Nav from "../components/Nav"
 import Header from "../components/Header"
 import About from "../components/About"
 import Divider from "../components/Divider";
+import Portfolio from "../components/Portfolio";
 
 
 const Main = (props) => {
@@ -11,6 +12,7 @@ const Main = (props) => {
         <Header />
         <About />
         <Divider />
+        <Portfolio />
         </div>
     );
 };
