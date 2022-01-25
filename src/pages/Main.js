@@ -3,6 +3,7 @@ import Header from "../components/Header"
 import About from "../components/About"
 import Divider from "../components/Divider";
 import Portfolio from "../components/Portfolio";
+import Contact from "../components/Contact";
 
 
 const Main = (props) => {
@@ -13,6 +14,7 @@ const Main = (props) => {
         <About />
         <Divider />
         <Portfolio />
+        <Contact />
         </div>
     );
 };
