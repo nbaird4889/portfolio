@@ -67,7 +67,7 @@ h1 {
 
 .nav {
     background-color: black;
-    padding: 30px 50px;
+    padding: 25px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,8 +75,8 @@ h1 {
 }
 
 .logo {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 .nav-links {
