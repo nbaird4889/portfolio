@@ -20,7 +20,7 @@ function Portfolio(props) {
     }
 
     return (
-        <div className="portfolio">
+        <div id="portfolio" className="portfolio">
             <h2 className="portfolio-headline">Portfolio</h2>
             <h3 className="about-details">Hover over any record for more details. Want to view the full project? Just click!</h3>
         <div className="record-container">

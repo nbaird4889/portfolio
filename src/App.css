@@ -92,6 +92,17 @@ h1 {
     display: flex;
 }
 
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.nav-links a:hover {
+    transform: scale(1.1); 
+    color: #4DC2D3;
+}
+
 .nav-links li {
     margin-left: 50px;
     font-size: 20px;
@@ -138,8 +149,7 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 40px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 50px;
 }
 
 .summary {
