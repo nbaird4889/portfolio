@@ -34,13 +34,16 @@
 .entry-details {
       font-family: LEMONMILK;
       color: white;
-      padding-top: 200px;
+      padding-top: 170px;
       text-align: center;
 }
 
 h1 {
       font-size: 60px;
-      margin-bottom: 300px;
+}
+
+#title {
+    margin-bottom: 230px;
 }
 
 .learn-more {
@@ -96,7 +99,7 @@ h1 {
 
 /* ===========Header========== */
 .header {
-    background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/v1643139612/header_y7yzlt.png");
+    background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/v1643139612/Portfolio/header_y7yzlt.png");
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
@@ -135,7 +138,8 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 40px;
-    padding-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .summary {
@@ -160,7 +164,7 @@ h1 {
     font-family: LEMONMILK;
     font-size: 28px;
     letter-spacing: 2px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -194,10 +198,19 @@ hr {
     border: 2px solid black;
     border-radius: 8px;
     margin-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 /* ===========Portfolio========== */
+
+.portfolio-headline {
+    font-family: LEMONMILK;
+    font-size: 28px;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    text-align: center;
+}
+
 .record-container {
     display: flex;
     justify-content: center;
@@ -243,9 +256,22 @@ hr {
 }
 
 .contact-icon {
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+}
+
+.contact-icon:hover {
+    animation: spin3D 1s 1 ease-in-out;
+}
+
+@keyframes spin3D {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(359deg);
+    }
 }
 
 /* ===========Footer========== */

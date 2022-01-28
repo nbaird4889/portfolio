@@ -12,9 +12,9 @@ const Main = (props) => {
         <div>
         <Nav />
         <Header />
-        <About />
-        <Divider />
         <Portfolio />
+        <Divider />
+        <About />
         <Contact />
         <Footer />
         </div>
