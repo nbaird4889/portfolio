@@ -1,23 +1,42 @@
 import {useState} from "react"
 
 function Portfolio(props) {
-    const [cardShown, setCardShown] = useState({display: "none"}) 
-    const [recordShown, setRecordShown] = useState({display: "block"})
+    const [cardShownOne, setCardShownOne] = useState({display: "none"}) 
+    const [recordShownOne, setRecordShownOne] = useState({display: "block"})
 
-    function changeBackground(e) {
+    const [cardShownTwo, setCardShownTwo] = useState({display: "none"}) 
+    const [recordShownTwo, setRecordShownTwo] = useState({display: "block"})
+
+    function changeBackgroundOne(e) {
        return (
-           setCardShown({display: "block"}),
-           setRecordShown({display: "none"})
+           setCardShownOne({display: "block"}),
+           setRecordShownOne({display: "none"})
        )
     }
 
-    function changeBackgroundBack(e) {
+    function changeBackgroundBackOne(e) {
         return (
-            setCardShown({display: "none"}),
-            setRecordShown({display: "block"})
+            setCardShownOne({display: "none"}),
+            setRecordShownOne({display: "block"})
         )
         
     }
+
+    function changeBackgroundTwo(e) {
+        return (
+            setCardShownTwo({display: "block"}),
+            setRecordShownTwo({display: "none"})
+        )
+     }
+ 
+     function changeBackgroundBackTwo(e) {
+         return (
+             setCardShownTwo({display: "none"}),
+             setRecordShownTwo({display: "block"})
+         )
+         
+     }
+    
 
     return (
         <div id="portfolio" className="portfolio">
@@ -25,8 +44,8 @@ function Portfolio(props) {
             <h3 className="about-details">Hover over any record for more details. Want to view the full project? Just click!</h3>
         <div className="record-container">
             <div className="record-card">
-                <img style={recordShown} onMouseEnter={changeBackground} onMouseLeave={changeBackgroundBack} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />
-                <div style={cardShown} className="project-card">
+                <img style={recordShownOne} onMouseEnter={changeBackgroundOne} onMouseLeave={changeBackgroundBackOne} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />
+                <div style={cardShownOne} className="project-card">
                     <div className="project-details">
                         <h2 className="project-headline">Atlanta BucketList</h2>
                         <p className="project-detail">Visiting Atlanta? Or considering it? Check out the best restaurants, attractions and breweries.</p>
@@ -35,7 +54,17 @@ function Portfolio(props) {
                     </div>
                 </div>
             </div>
-            <img className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />
+                <div className="record-card">
+                <img style={recordShownTwo} onMouseEnter={changeBackgroundTwo} onMouseLeave={changeBackgroundBackTwo} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643477309/Portfolio/recommendations-port_dcfuo5.png" alt="project-two" />
+                <div style={cardShownTwo} className="project-card" id="project-two">
+                    <div className="project-two-details">
+                        <h2 className="project-two-headline">Recommendation Application</h2>
+                        <p className="project-two-detail">With recommendations from friends and family for shows, restaurants, etc. always getting lost of forgotten. Make and keep track of recommendations with this app!</p>
+                        <p className="project-two-detail-tech">Technologies</p>
+                        <p className="project-two-detail-ind-tech">HTML | CSS | JAVASCRIPT | MongoDB | Express | Node.js</p>
+                    </div>
+                </div>
+                </div>
             <img className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />
             <img className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />
             <img className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />

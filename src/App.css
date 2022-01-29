@@ -17,6 +17,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
+.a, button {
+    cursor: pointer;
+}
+
 /* ===========Entry Page========== */
 
 #background-video {
@@ -268,6 +272,38 @@ hr {
 .project-detail-ind-tech {
     font-family: 'Montserrat', sans-serif;
 }
+
+#project-two {
+    background-color: #4C71D0;
+}
+
+.project-two-details {
+    padding: 20px 5px;
+}
+
+.project-two-headline {
+    font-family: LEMONMILK-MED;
+    padding-bottom: 10px;
+}
+
+.project-two-detail {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.project-two-detail-tech {
+    font-family: LEMONMILK;
+    padding-bottom: 5px;
+}
+
+.project-two-detail-ind-tech {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
 
 /* ===========Contact========== */
 .contact {

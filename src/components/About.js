@@ -4,23 +4,17 @@ function About() {
             <div className="summary">
                 <h2 className="about-headline">A little about me</h2>
                 <p className="about-details">
-                    If you would have told me 6 years ago that I'd be pressing restart on my career and become a software engineer, I would have thought you were crazy.
+                    If you would have told me a few years ago that I'd be pressing restart on my career and becoming a software engineer, I would have thought you were crazy.
                     But after more than 5 years in client services at an integrated marketing agency working on digital projects and campaigns with a variety of clients in different industries, 
                     I knew this was the path I wanted to take.  
                 </p>
                 <p className="about-details">
-                    With my years in marketing providing me with a keen eye for inventive and audience-appropriate design, 
-                    I try and bring a unique perspective to my projects - ensuring a user-first approach. 
+                    Software engineering brings constant challenges and an ever-evolving landscape, which is why it was the perfect fit for me. 
+                    And with my years in marketing providing me with a keen eye for inventive, audience-appropriate design, I try and bring a unique perspective to my projects - ensuring a user-first approach. 
+
                 </p>
                 <p className="about-details">
-                    If you would have told me 6 years ago that I'd be pressing restart on my career and become a software engineer, I would have thought you were crazy.
-                    But after more than 5 years in client services at an integrated marketing agency working on digital projects and campaigns with a variety of clients in different industries, 
-                    I knew this was the path I wanted to take.  
-                </p>
-                <p className="about-details">
-                    If you would have told me 6 years ago that I'd be pressing restart on my career and become a software engineer, I would have thought you were crazy.
-                    But after more than 5 years in client services at an integrated marketing agency working on digital projects and campaigns with a variety of clients in different industries, 
-                    I knew this was the path I wanted to take.  
+                    While not working, I enjoy exploring Atlanta, and its great restaurants and breweries, with my husband and rescue dog. 
                 </p>
                 <button className="about-btn">DOWNLOAD RESUME</button>
             </div>
