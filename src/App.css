@@ -412,6 +412,23 @@ hr {
 }
 
 @media only screen and (max-width: 600px) {
+    #background-video {
+        display: none;
+    }
+
+    .entry-details {
+        padding: 170px 40px;
+        row-gap: 50px;
+    }
+
+    .video {
+        background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/v1643754368/Portfolio/homepage-mobile_zxpelh.png");
+        background-size: cover;
+        background-position: 85% 50%;
+        background-repeat: no-repeat;
+        padding: 100px 0px;
+    }
+    
     .About {
         padding: 0px 15px;
     }
@@ -429,13 +446,6 @@ hr {
         left: 20%;
         transform: rotate(0deg)
     }
-}
-
-@media only screen and (max-width: 500px) {
-   .entry-details {
-        row-gap: 200px;
-        padding: 100px 40px;
-   }
 }
 
 
