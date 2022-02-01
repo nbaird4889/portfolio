@@ -1,13 +1,15 @@
-import { Route, Switch} from "react-router-dom"
+import { Route, Switch, useLocation} from "react-router-dom"
 import Entry from "./pages/Entry";
 import Main from "./pages/Main"
 import "./App.css"
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
+  const location = useLocation();
   return (
     <div className="App">
-      <Switch>
+      <AnimatePresence exitBeforeEnter initial={false}>
+      <Switch location={location} key={location.pathname}>
         <Route exact path="/">
           <Entry />
         </Route>
@@ -15,6 +17,7 @@ function App() {
           <Main />
         </Route>
       </Switch>
+      </AnimatePresence>
     </div>
   );
 }

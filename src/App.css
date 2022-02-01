@@ -278,7 +278,7 @@ hr {
 }
 
 .project-two-details {
-    padding: 20px 5px;
+    padding: 20px 10px;
 }
 
 .project-two-headline {
@@ -289,7 +289,7 @@ hr {
 .project-two-detail {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .project-two-detail-tech {
@@ -300,9 +300,6 @@ hr {
 .project-two-detail-ind-tech {
     font-family: 'Montserrat', sans-serif;
 }
-
-
-
 
 
 /* ===========Contact========== */
