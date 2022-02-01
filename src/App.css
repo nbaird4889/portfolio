@@ -33,6 +33,7 @@
     top: 0;
     bottom: 0;
     z-index: -1;
+    filter: brightness(80%)
 }
 
 .entry-details {
@@ -376,6 +377,22 @@ hr {
 .footer-logo {
     height: 100px
 }
+
+
+/* ======MOBILE STYLING===== */
+@media only screen and (max-width: 768px) {
+    #title {
+        margin-bottom: 330px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #title {
+        margin-bottom: 130px;
+    }
+}
+
+
 
 
 
