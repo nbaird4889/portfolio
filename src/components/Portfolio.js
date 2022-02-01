@@ -59,7 +59,7 @@ function Portfolio(props) {
     return (
         <div id="portfolio" className="portfolio">
             <h2 className="portfolio-headline">Portfolio</h2>
-            <h3 className="about-details">Hover over any record for more details. Want to view the full project? Just click!</h3>
+            <h3 className="about-details" id="port-text">Hover over any record for more details. Want to view the full project? Just click!</h3>
         <div className="record-container">
             <a className="project-link" href="https://pages.git.generalassemb.ly/nbaird44/project-one-atlanta/" target="_blank">
             <div className="record-card">
