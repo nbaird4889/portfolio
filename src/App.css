@@ -301,6 +301,20 @@ hr {
     font-family: 'Montserrat', sans-serif;
 }
 
+.project-three-detail {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-bottom: 23px;
+}
+
+#project-three {
+    background-color: #7FB285
+}
+
+.project-link {
+    text-decoration: none;
+}
+
 
 /* ===========Contact========== */
 .contact {
