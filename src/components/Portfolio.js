@@ -102,8 +102,6 @@ function Portfolio(props) {
                 </div>
                 </div>
                 </a>
-            <img className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />
-            <img className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />
         </div>
         </div>
     )

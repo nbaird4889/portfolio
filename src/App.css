@@ -36,7 +36,7 @@ html, body{
     top: 0;
     bottom: 0;
     z-index: -1;
-    filter: brightness(70%)
+    filter: brightness(80%)
 }
 
 .entry-details {
