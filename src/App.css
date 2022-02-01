@@ -22,41 +22,45 @@
 }
 
 /* ===========Entry Page========== */
+.video {
+    position: relative;  
+    margin: 0 auto;
+}
 
 #background-video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    position: fixed;
+    position: absolute; 
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     z-index: -1;
-    filter: brightness(80%)
+    filter: brightness(70%)
 }
 
 .entry-details {
       font-family: LEMONMILK;
       color: white;
-      padding-top: 170px;
       text-align: center;
+      padding-top: 200px; 
 }
 
 h1 {
-      font-size: 60px;
+    font-size: 60px;
 }
 
 #title {
-    margin-bottom: 230px;
+    margin-bottom: 280px;
 }
 
 .learn-more {
-      font-size: 18px;
+    font-size: 24px;
 }
 
 #scroll {
-      margin-top: 20px;
+    margin-top: 20px;
 }
 
 .arrow {
@@ -121,7 +125,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
-    position: relative
+    position: relative;
 }
 
 .all-details {
@@ -381,15 +385,11 @@ hr {
 
 /* ======MOBILE STYLING===== */
 @media only screen and (max-width: 768px) {
-    #title {
-        margin-bottom: 330px;
-    }
+    
 }
 
-@media only screen and (max-width: 400px) {
-    #title {
-        margin-bottom: 130px;
-    }
+@media only screen and (max-width: 500px) {
+    
 }
 
 
