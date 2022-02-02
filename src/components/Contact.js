@@ -7,6 +7,7 @@ function Contact() {
                 <a href="mailto:nbaird44@gmail.com"><img className="contact-icon" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643147894/Portfolio/gmail_p5md2a.png" alt="email" /></a>
                 <a href="tel:4042474828"><img className="contact-icon" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643147894/Portfolio/phone_v7xr9r.png" alt="phone" /></a>
                 <a href="https://www.linkedin.com/in/nicole-k-baird/" target="_blank"><img className="contact-icon" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643147894/Portfolio/linkedin_ag13wb.png" alt="linkedin" /></a>
+                <a href="https://github.com/nbaird4889" target="_blank"><img className="contact-icon" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643845017/Portfolio/github-port_xkduvy.png" alt="linkedin" /></a>
             </div>
         </div>
     )

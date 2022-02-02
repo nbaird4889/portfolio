@@ -20,7 +20,7 @@ function About() {
             </div>
             <div className="skills">
                 <h2 className="about-headline">A few of my skills</h2>
-                <img className="skill-image" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643142781/Portfolio/Screen_Shot_2022-01-25_at_3.29.56_PM_x3hzau.png" alt="skills"/>
+                <img className="skill-image" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643844792/Portfolio/skills-port_ftvhu7.png" alt="skills"/>
             </div>
         </div>
     )
