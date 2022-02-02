@@ -188,7 +188,7 @@ h1 {
 
 .about-details {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     padding-bottom: 20px;
     text-align: center;
@@ -383,7 +383,7 @@ hr {
 
 
 /* ======MOBILE STYLING===== */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1280px) {
     .About {
         display: flex;
         flex-wrap: wrap;

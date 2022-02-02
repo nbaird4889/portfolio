@@ -10,6 +10,11 @@ function Portfolio(props) {
     const [cardShownThree, setCardShownThree] = useState({display: "none"}) 
     const [recordShownThree, setRecordShownThree] = useState({display: "block"})
 
+    const [cardShownFour, setCardShownFour] = useState({display: "none"}) 
+    const [recordShownFour, setRecordShownFour] = useState({display: "block"})
+
+
+
     function changeBackgroundOne(e) {
        return (
            setCardShownOne({display: "block"}),
@@ -54,6 +59,23 @@ function Portfolio(props) {
          )
          
      }
+
+     function changeBackgroundFour(e) {
+        return (
+            setCardShownFour({display: "block"}),
+            setRecordShownFour({display: "none"})
+        )
+     }
+ 
+     function changeBackgroundBackFour(e) {
+         return (
+             setCardShownFour({display: "none"}),
+             setRecordShownFour({display: "block"})
+         )
+         
+     }
+
+    
     
 
     return (
@@ -98,6 +120,20 @@ function Portfolio(props) {
                         <p className="project-three-detail">Checkout the Dawg legends who paved the way for the 2021 National champions!</p>
                         <p className="project-two-detail-tech">Technologies</p>
                         <p className="project-two-detail-ind-tech">HTML | CSS | JAVASCRIPT | MONGODB | EXPRESS | NODE.JS | REACT</p>
+                    </div>
+                </div>
+                </div>
+                </a>
+
+                <a className="project-link" href="https://s-and-p-500.netlify.app/" target="_blank">
+                <div className="record-card">
+                <img style={recordShownFour} onMouseEnter={changeBackgroundFour} onMouseLeave={changeBackgroundBackFour} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643839131/Portfolio/stock-app_ce2yma.png" alt="project-four" />
+                <div style={cardShownFour} className="project-card">
+                    <div className="project-two-details">
+                        <h2 className="project-two-headline">S&P 500</h2>
+                        <p className="project-detail">By utilizing an API, the app lists all of the S&P 500 stocks and information on each one</p>
+                        <p className="project-two-detail-tech">Technologies</p>
+                        <p className="project-two-detail-ind-tech">HTML | CSS | JAVASCRIPT | AJAX | NODE.JS | REACT</p>
                     </div>
                 </div>
                 </div>
