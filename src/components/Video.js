@@ -15,7 +15,7 @@ function Video() {
                     <p className="learn-more">to software challenges.</p>
                     <p className="learn-more" id="scroll">Click below </p>
                     <p className="learn-more">to see my solutions</p>
-                    <Link to="/nicolebaird">
+                    <Link to="/about-me">
                     <img className="arrow" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1642990637/Portfolio/SeekPng.com_white-arrow-png_87169_zllqgg.png" alt="arrow" />
                     </Link>
                 </div>
