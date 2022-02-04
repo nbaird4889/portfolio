@@ -102,19 +102,6 @@ function Portfolio(props) {
             <h2 className="portfolio-headline">Portfolio</h2>
             <h3 className="about-details" id="port-text">Hover over any record for more details. Want to view the full project? Just click!</h3>
         <div className="record-container">
-            <a className="project-link" href="https://pages.git.generalassemb.ly/nbaird44/project-one-atlanta/" target="_blank">
-            <div className="record-card">
-                <img style={recordShownOne} onMouseEnter={changeBackgroundOne} onMouseLeave={changeBackgroundBackOne} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />
-                <div style={cardShownOne} className="project-card">
-                    <div className="project-details">
-                        <h2 className="project-headline">Atlanta BucketList</h2>
-                        <p className="project-detail">Visiting Atlanta? Or considering it? Check out the best restaurants, attractions and breweries.</p>
-                        <p className="project-detail-tech">Technologies</p>
-                        <p className="project-detail-ind-tech">HTML | CSS | JAVASCRIPT</p>
-                    </div>
-                </div>
-            </div>
-                </a>
 
                 <a className="project-link" href="https://project-two-reco.herokuapp.com/" target="_blank">
                 <div className="record-card">
@@ -171,6 +158,20 @@ function Portfolio(props) {
                 </div>
                 </div>
                 </a>
+
+            <a className="project-link" href="https://pages.git.generalassemb.ly/nbaird44/project-one-atlanta/" target="_blank">
+                <div className="record-card">
+                    <img style={recordShownOne} onMouseEnter={changeBackgroundOne} onMouseLeave={changeBackgroundBackOne} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />
+                    <div style={cardShownOne} className="project-card" id="project-three">
+                        <div className="project-details">
+                            <h2 className="project-headline">Atlanta BucketList</h2>
+                            <p className="project-detail">Visiting Atlanta? Or considering it? Check out the best restaurants, attractions and breweries.</p>
+                            <p className="project-detail-tech">Technologies</p>
+                            <p className="project-detail-ind-tech">HTML | CSS | JAVASCRIPT</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
         </div>
     )
