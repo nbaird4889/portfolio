@@ -159,15 +159,15 @@ function Portfolio(props) {
                 </div>
                 </a>
 
-            <a className="project-link" href="https://pages.git.generalassemb.ly/nbaird44/project-one-atlanta/" target="_blank">
+            <a className="project-link" href="https://atlanta-bucketlist.netlify.app/" target="_blank">
                 <div className="record-card">
                     <img style={recordShownOne} onMouseEnter={changeBackgroundOne} onMouseLeave={changeBackgroundBackOne} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />
                     <div style={cardShownOne} className="project-card" id="project-three">
                         <div className="project-details">
                             <h2 className="project-headline">Atlanta BucketList</h2>
-                            <p className="project-detail">Visiting Atlanta? Or considering it? Check out the best restaurants, attractions and breweries.</p>
+                            <p className="project-three-detail">Visiting Atlanta? Or considering it? Check out the best restaurants, attractions and breweries.</p>
                             <p className="project-detail-tech">Technologies</p>
-                            <p className="project-detail-ind-tech">HTML | CSS | JAVASCRIPT</p>
+                            <p className="project-detail-ind-tech">HTML | CSS | JAVASCRIPT | REACT | AJAX | NODE.JS</p>
                         </div>
                     </div>
                 </div>
