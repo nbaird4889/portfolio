@@ -110,7 +110,7 @@ function Portfolio(props) {
                     <div className="project-two-details">
                         <h2 className="project-two-headline">Recommendation Application</h2>
                         <p className="project-two-detail">With recommendations from friends and family for shows, restaurants, etc. always getting lost of forgotten. Make and keep track of recommendations with this app!</p>
-                        <p className="project-two-detail-tech">Technologies</p>
+                        <p className="project-two-detail-tech">Built with:</p>
                         <p className="project-two-detail-ind-tech">HTML | CSS | JAVASCRIPT | MONGODB | EXPRESS | NODE.JS</p>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ function Portfolio(props) {
                     <div className="project-two-details">
                         <h2 className="project-two-headline">UGA Football Legends</h2>
                         <p className="project-three-detail">Checkout the Dawg legends who paved the way for the 2021 National champions!</p>
-                        <p className="project-two-detail-tech">Technologies</p>
+                        <p className="project-two-detail-tech">Built with:</p>
                         <p className="project-two-detail-ind-tech">HTML | CSS | JAVASCRIPT | MONGODB | EXPRESS | NODE.JS | REACT</p>
                     </div>
                 </div>
@@ -138,7 +138,7 @@ function Portfolio(props) {
                     <div className="project-two-details">
                         <h2 className="project-two-headline">S&P 500</h2>
                         <p className="project-detail">By utilizing an API, the app lists all of the S&P 500 stocks and information on each one</p>
-                        <p className="project-two-detail-tech">Technologies</p>
+                        <p className="project-two-detail-tech">Built with:</p>
                         <p className="project-two-detail-ind-tech">HTML | CSS | JAVASCRIPT | AJAX | NODE.JS | REACT</p>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ function Portfolio(props) {
                     <div className="project-two-details">
                         <h2 className="project-two-headline">My Sustainable Brands</h2>
                         <p className="project-two-detail">This application makes it easy to shop with sustainable brands and recommend your favorite brands to others.</p>
-                        <p className="project-two-detail-tech">Technologies</p>
+                        <p className="project-two-detail-tech">Built with:</p>
                         <p className="project-two-detail-ind-tech">HTML | CSS | JAVASCRIPT | MONGODB | EXPRESS | NODE.JS | REACT</p>
                     </div>
                 </div>
@@ -166,7 +166,7 @@ function Portfolio(props) {
                         <div className="project-details">
                             <h2 className="project-headline">Atlanta BucketList</h2>
                             <p className="project-three-detail">Visiting Atlanta? Or considering it? Check out the best restaurants, attractions and breweries.</p>
-                            <p className="project-detail-tech">Technologies</p>
+                            <p className="project-detail-tech">Built with:</p>
                             <p className="project-detail-ind-tech">HTML | CSS | JAVASCRIPT | REACT | AJAX | NODE.JS</p>
                         </div>
                     </div>
