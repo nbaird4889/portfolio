@@ -21,6 +21,8 @@ html, body{
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
 .a, button, :hover {
     cursor: pointer;
 }
@@ -46,8 +48,8 @@ html, body{
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 220px 40px;
-      row-gap: 230px;
+      padding: 170px 40px;
+      row-gap: 280px;
 }
 
 h1 {
@@ -130,10 +132,144 @@ h1 {
 .all-details {
     position: absolute;
     text-align: center;
-    bottom: 90px;
-    left: 290px;
-    transform: rotate(25deg)
+    bottom: 380px;
+    left: 150px;
+    color: white;
+    padding-bottom: 15px;
 }
+
+.all-details2 {
+    position: absolute;
+    text-align: center;
+    bottom: 320px;
+    left: 142px;
+    color: white;
+    padding-bottom: 15px;
+    transform: rotate(5deg);
+}
+
+
+                     #warped {position: relative; display: block;}
+
+                     #warped>span[class^=w]:nth-of-type(n+0){display:block; position:absolute;
+                     -moz-transform-origin:50% 100%; -webkit-transform-origin:50% 100%; -o-transform-origin:50%
+                     100%; -ms-transform-origin:50% 100%; transform-origin:50% 100%; }
+
+                     #warped span{font-family:'Rubik';font-size:70px;font-weight:700;font-style:normal;
+                     line-height:0.65; white-space:pre; overflow:visible; padding:0px;}
+
+                     #warped .w0 {-moz-transform: rotate(-0.01rad);-webkit-transform: rotate(-0.01rad);-o-transform:
+                     rotate(-0.01rad);-ms-transform: rotate(-0.01rad); transform: rotate(-0.01rad);
+                     width: 50px; height: 46px; left: 184.39px; top: 23.01px;}
+
+                     #warped .w1 {-moz-transform: rotate(0.11rad);-webkit-transform: rotate(0.11rad);-o-transform:
+                     rotate(0.11rad);-ms-transform: rotate(0.11rad); transform: rotate(0.11rad);
+                     width: 20px; height: 46px; left: 239.31px; top: 25.1px;}
+
+                     #warped .w2 {-moz-transform: rotate(0.22rad);-webkit-transform: rotate(0.22rad);-o-transform:
+                     rotate(0.22rad);-ms-transform: rotate(0.22rad); transform: rotate(0.22rad);
+                     width: 41px; height: 46px; left: 263.8px; top: 30.99px;}
+
+                     #warped .w3 {-moz-transform: rotate(0.36rad);-webkit-transform: rotate(0.36rad);-o-transform:
+                     rotate(0.36rad);-ms-transform: rotate(0.36rad); transform: rotate(0.36rad);
+                     width: 43px; height: 46px; left: 307.78px; top: 44.47px;}
+
+                     #warped .w4 {-moz-transform: rotate(0.47rad);-webkit-transform: rotate(0.47rad);-o-transform:
+                     rotate(0.47rad);-ms-transform: rotate(0.47rad); transform: rotate(0.47rad);
+                     width: 20px; height: 46px; left: 352.63px; top: 59.26px;}
+
+                     #warped .w5 {-moz-transform: rotate(0.58rad);-webkit-transform: rotate(0.58rad);-o-transform:
+                     rotate(0.58rad);-ms-transform: rotate(0.58rad); transform: rotate(0.58rad);
+                     width: 42px; height: 46px; left: 372.74px; top: 77.35px;}
+
+                     #warped .w6 {-moz-transform: rotate(0.68rad);-webkit-transform: rotate(0.68rad);-o-transform:
+                     rotate(0.68rad);-ms-transform: rotate(0.68rad); transform: rotate(0.68rad);
+                     width: 15px; height: 46px; left: 413.26px; top: 97.13px;}
+
+                     #warped .w7 {-moz-transform: rotate(0.79rad);-webkit-transform: rotate(0.79rad);-o-transform:
+                     rotate(0.79rad);-ms-transform: rotate(0.79rad); transform: rotate(0.79rad);
+                     width: 49px; height: 46px; left: 423.61px; top: 122.02px;}
+
+                     #warped .w8 {-moz-transform: rotate(0.94rad);-webkit-transform: rotate(0.94rad);-o-transform:
+                     rotate(0.94rad);-ms-transform: rotate(0.94rad); transform: rotate(0.94rad);
+                     width: 41px; height: 46px; left: 459.83px; top: 160.19px;}
+
+                     #warped .w9 {-moz-transform: rotate(1.05rad);-webkit-transform: rotate(1.05rad);-o-transform:
+                     rotate(1.05rad);-ms-transform: rotate(1.05rad); transform: rotate(1.05rad);
+                     width: 20px; height: 46px; left: 489.53px; top: 190.03px;}
+
+                     #warped .w10 {-moz-transform: rotate(1.14rad);-webkit-transform: rotate(1.14rad);-o-transform:
+                     rotate(1.14rad);-ms-transform: rotate(1.14rad); transform: rotate(1.14rad);
+                     width: 32px; height: 46px; left: 497.6px; top: 217.64px;}
+
+                     #warped .w11 {-moz-transform: rotate(1.27rad);-webkit-transform: rotate(1.27rad);-o-transform:
+                     rotate(1.27rad);-ms-transform: rotate(1.27rad); transform: rotate(1.27rad);
+                     width: 44px; height: 46px; left: 506.73px; top: 257.86px;}
+
+
+
+                     #warped2 {position: relative; display: block;}
+
+                     #warped2>span[class^=w]:nth-of-type(n+0){display:block; position:absolute;
+                     -moz-transform-origin:50% 100%; -webkit-transform-origin:50% 100%; -o-transform-origin:50%
+                     100%; -ms-transform-origin:50% 100%; transform-origin:50% 100%; }
+
+                     #warped2 span{font-family:'Rubik';font-size:50px;font-weight:700;font-style:normal;
+                     line-height:0.65; white-space:pre; overflow:visible; padding:0px;}
+
+                     #warped2 .w0 {-moz-transform: rotate(0.01rad);-webkit-transform: rotate(0.01rad);-o-transform:
+                     rotate(0.01rad);-ms-transform: rotate(0.01rad); transform: rotate(0.01rad);
+                     width: 36px; height: 33px; left: 198.18px; top: 52.02px;}
+
+                     #warped2 .w1 {-moz-transform: rotate(0.12rad);-webkit-transform: rotate(0.12rad);-o-transform:
+                     rotate(0.12rad);-ms-transform: rotate(0.12rad); transform: rotate(0.12rad);
+                     width: 23px; height: 33px; left: 239.08px; top: 54.37px;}
+
+                     #warped2 .w2 {-moz-transform: rotate(0.19rad);-webkit-transform: rotate(0.19rad);-o-transform:
+                     rotate(0.19rad);-ms-transform: rotate(0.19rad); transform: rotate(0.19rad);
+                     width: 14px; height: 33px; left: 266.77px; top: 58.11px;}
+
+                     #warped2 .w3 {-moz-transform: rotate(0.28rad);-webkit-transform: rotate(0.28rad);-o-transform:
+                     rotate(0.28rad);-ms-transform: rotate(0.28rad); transform: rotate(0.28rad);
+                     width: 30px; height: 33px; left: 284.99px; top: 64.54px;}
+
+                     #warped2 .w4 {-moz-transform: rotate(0.39rad);-webkit-transform: rotate(0.39rad);-o-transform:
+                     rotate(0.39rad);-ms-transform: rotate(0.39rad); transform: rotate(0.39rad);
+                     width: 32px; height: 33px; left: 317.91px; top: 76.54px;}
+
+                     #warped2 .w5 {-moz-transform: rotate(0.5rad);-webkit-transform: rotate(0.5rad);-o-transform:
+                     rotate(0.5rad);-ms-transform: rotate(0.5rad); transform: rotate(0.5rad);
+                     width: 23px; height: 33px; left: 351.67px; top: 90.64px;}
+
+                     #warped2 .w6 {-moz-transform: rotate(0.6rad);-webkit-transform: rotate(0.6rad);-o-transform:
+                     rotate(0.6rad);-ms-transform: rotate(0.6rad); transform: rotate(0.6rad);
+                     width: 30px; height: 33px; left: 375.01px; top: 107.12px;}
+
+                     #warped2 .w7 {-moz-transform: rotate(0.68rad);-webkit-transform: rotate(0.68rad);-o-transform:
+                     rotate(0.68rad);-ms-transform: rotate(0.68rad); transform: rotate(0.68rad);
+                     width: 14px; height: 33px; left: 404.6px; top: 123.31px;}
+
+                     #warped2 .w8 {-moz-transform: rotate(0.74rad);-webkit-transform: rotate(0.74rad);-o-transform:
+                     rotate(0.74rad);-ms-transform: rotate(0.74rad); transform: rotate(0.74rad);
+                     width: 11px; height: 33px; left: 419.32px; top: 134.77px;}
+
+                     #warped2 .w9 {-moz-transform: rotate(0.83rad);-webkit-transform: rotate(0.83rad);-o-transform:
+                     rotate(0.83rad);-ms-transform: rotate(0.83rad); transform: rotate(0.83rad);
+                     width: 36px; height: 33px; left: 426.94px; top: 154.95px;}
+
+                     #warped2 .w10 {-moz-transform: rotate(0.96rad);-webkit-transform: rotate(0.96rad);-o-transform:
+                     rotate(0.96rad);-ms-transform: rotate(0.96rad); transform: rotate(0.96rad);
+                     width: 36px; height: 33px; left: 452.49px; top: 186.98px;}
+
+                     #warped2 .w11 {-moz-transform: rotate(1.03rad);-webkit-transform: rotate(1.03rad);-o-transform:
+                     rotate(1.03rad);-ms-transform: rotate(1.03rad); transform: rotate(1.03rad);
+                     width: 32px; height: 33px; left: 466.42px; top: 205.45px;}
+
+
+
+
+
+
 
 .header-name {
     font-family: LEMONMILK-MED;
