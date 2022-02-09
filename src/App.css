@@ -46,7 +46,7 @@ html, body{
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 170px 40px;
+      padding: 220px 40px;
       row-gap: 230px;
 }
 
