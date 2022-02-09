@@ -132,20 +132,25 @@ h1 {
 .all-details {
     position: absolute;
     text-align: center;
-    bottom: 380px;
+    bottom: 350px;
     left: 150px;
     color: white;
     padding-bottom: 15px;
+    transform: rotate(-5deg);
 }
 
 .all-details2 {
     position: absolute;
     text-align: center;
-    bottom: 320px;
-    left: 142px;
+    bottom: 310px;
+    left: 160px;
     color: white;
     padding-bottom: 15px;
     transform: rotate(5deg);
+}
+
+.all-details-mobile {
+    display: none
 }
 
 
@@ -538,8 +543,15 @@ hr {
 
 @media only screen and (max-width: 800px) {
     .all-details {
-        bottom: 100px;
-        left: 200px;
+        bottom: 330px;
+        left: -40px;
+        transform: rotate(-15deg);
+    }
+    
+    .all-details2 {
+        bottom: 330px;
+        left: 0px;
+        transform: rotate(-5deg);
     }
 
     #port-text {
@@ -578,9 +590,15 @@ hr {
     }
 
     .all-details {
-        bottom: 25%;
-        left: 20%;
-        transform: rotate(0deg)
+        display: none;
+    }
+    
+    .all-details2 {
+        display: none;
+    }
+
+    .header {
+        height: 300px;
     }
 }
 
