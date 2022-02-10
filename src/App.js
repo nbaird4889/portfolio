@@ -4,8 +4,9 @@ import Main from "./pages/Main"
 import "./App.css"
 import { AnimatePresence, motion } from "framer-motion";
 
-function App() {
+function App(props) {
   const location = useLocation();
+
   return (
     <div className="App">
       <AnimatePresence exitBeforeEnter initial={false}>

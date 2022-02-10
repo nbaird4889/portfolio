@@ -10,6 +10,18 @@ import { AnimatePresence, motion } from "framer-motion";
 
 
 const Main = (props) => {
+    URL = "https://portfolio-backend-baird.herokuapp.com/"
+
+    const createPeople = async (person) => {
+      await fetch(URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "Application/json",
+        },
+        body: JSON.stringify(person),
+      });
+    };
+
     return (
         <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} transition={{duration: .1}}>
         <div>
@@ -18,7 +30,7 @@ const Main = (props) => {
         <Portfolio />
         <Divider />
         <About />
-        <Contact />
+        <Contact createPeople={createPeople}/>
         <Footer />
         </div>
         </motion.div>

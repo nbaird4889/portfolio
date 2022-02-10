@@ -149,10 +149,6 @@ h1 {
     transform: rotate(5deg);
 }
 
-.all-details-mobile {
-    display: none
-}
-
 
                      #warped {position: relative; display: block;}
 
@@ -464,7 +460,6 @@ hr {
 /* ===========Contact========== */
 .contact {
     background-color: #29654C;
-    text-align: center;
     height: auto;
 }
 
@@ -474,31 +469,81 @@ hr {
     letter-spacing: 2px;
     padding: 45px 15px 20px 15px;
     color: white;
+    text-align: center;
 }
 
 .contact-details {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    padding: 0px 80px 50px 80px;
+    padding: 0px 150px 30px 150px;
     color: white;
+    text-align: center;
 }
 
 .contact-icons {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    column-gap: 80px;
+    column-gap: 150px;
+    padding-top: 60px;
 }
 
 .contact-icon {
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
     padding-bottom: 60px;
 }
 
 .contact-icon:hover {
     animation: spin3D 1s 1 ease-in-out;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 80px;
+    background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/c_scale,w_2000/v1644525115/giorgio-trovato-8_LhgVjT6KQ-unsplash_nsnxep.jpg");
+    background-size: cover;
+    margin: 25px 180px 0px 180px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px black;
+}
+
+label {
+    font-family: LEMONMILK;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+input {
+    padding: 8px 5px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: 3px solid black;
+    border: none;
+}
+
+.contact-btn {
+    font-family: LEMONMILK-MED;
+    width: 50%;
+    margin-top: 20px;
+    transition: all .2s ease-in-out; 
+}
+
+.contact-btn:hover {
+    transform: scale(1.15); 
+    background-color: #4ec2d3;
+    color: white;
+}
+
+.btn-div {
+    text-align: center;
 }
 
 @keyframes spin3D {
@@ -541,6 +586,17 @@ hr {
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    fieldset {
+        padding: 30px 40px;
+        margin: 25px 100px 0px 100px;
+    }
+
+    .contact-icons {
+        column-gap: 100px;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .all-details {
         bottom: 330px;
@@ -556,6 +612,20 @@ hr {
 
     #port-text {
         padding: 0px 30px;
+    }
+
+    fieldset {
+        padding: 30px 20px;
+        margin: 25px 50px 0px 50px;
+    }
+
+    .contact-icons {
+        column-gap: 80px;
+        margin: 0px 40px;
+    }
+
+    .contact-details {
+        padding: 0px 100px 30px 100px;
     }
 }
 
@@ -599,6 +669,18 @@ hr {
 
     .header {
         height: 300px;
+    }
+
+    fieldset {
+        margin: 25px 30px 0px 30px;
+    }
+
+    .contact-icons {
+        column-gap: 50px;
+    }
+
+    .contact-details {
+        padding: 0px 40px 30px 40px;
     }
 }
 
