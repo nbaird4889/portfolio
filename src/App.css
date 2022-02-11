@@ -23,7 +23,7 @@ html, body{
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 
-.a, button, :hover {
+a, button {
     cursor: pointer;
 }
 
@@ -339,9 +339,11 @@ h1 {
     font-family: LEMONMILK-MED;
     margin-top: 10px;
     background-color: #4DC2D3;
+    transition: all .2s ease-in-out; 
 }
 
 .about-btn:hover {
+    transform: scale(1.1); 
     background-color: #f2535d;
     cursor: pointer;
 }
@@ -534,12 +536,16 @@ input:focus {
     width: 50%;
     margin-top: 20px;
     transition: all .2s ease-in-out; 
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #4DC2D3;
+    color: white;
 }
 
 .contact-btn:hover {
     transform: scale(1.15); 
-    background-color: #4ec2d3;
-    color: white;
+    background-color: #f2535d;
 }
 
 .btn-div {
