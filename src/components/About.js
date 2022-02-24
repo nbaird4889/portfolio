@@ -16,7 +16,7 @@ function About() {
                 <p className="about-details">
                     While not working, I enjoy exploring Atlanta, and its great restaurants and breweries, with my husband and rescue dog. 
                 </p>
-                <a href="https://nicole-baird.s3.amazonaws.com/Nicole_Baird_Resume.pdf" target="_blank" rel="noreferrer"><button className="about-btn">DOWNLOAD RESUME</button></a>
+                <a href="https://nicole-baird.s3.amazonaws.com/Nicole_Baird_Resume_2022.pdf" target="_blank" rel="noreferrer"><button className="about-btn">DOWNLOAD RESUME</button></a>
             </div>
             <div className="skills">
                 <h2 className="about-headline">A few of my skills</h2>
