@@ -16,6 +16,9 @@ function Portfolio(props) {
     const [cardShownFive, setCardShownFive] = useState({display: "none"}) 
     const [recordShownFive, setRecordShownFive] = useState({display: "block"})
 
+    const [cardShownSix, setCardShownSix] = useState({display: "none"}) 
+    const [recordShownSix, setRecordShownSix] = useState({display: "block"})
+
 
 
     function changeBackgroundOne(e) {
@@ -93,6 +96,21 @@ function Portfolio(props) {
          
      }
 
+     function changeBackgroundSix(e) {
+        return (
+            setCardShownSix({display: "block"}),
+            setRecordShownSix({display: "none"})
+        )
+     }
+ 
+     function changeBackgroundBackSix(e) {
+         return (
+             setCardShownSix({display: "none"}),
+             setRecordShownSix({display: "block"})
+         )
+         
+     }
+
 
     
     
@@ -140,6 +158,20 @@ function Portfolio(props) {
                         <p className="project-two-detail">This application makes it easy to shop with sustainable brands and recommend your favorite brands to others.</p>
                         <p className="project-two-detail-tech">Built with:</p>
                         <p className="project-two-detail-ind-tech">HTML | CSS | JAVASCRIPT | MONGODB | EXPRESS | NODE.JS | REACT</p>
+                    </div>
+                </div>
+                </div>
+            </a>
+
+            <a className="project-link" href="https://github.com/nbaird4889/restaurateur.git" target="_blank" rel="noreferrer">
+                <div className="record-card">
+                <img style={recordShownSix} onMouseEnter={changeBackgroundSix} onMouseLeave={changeBackgroundBackSix} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1646340082/Portfolio/restaurants_h9r9cc.png" alt="project-Six" />
+                <div style={cardShownSix} className="project-card" id="project-three">
+                    <div className="project-two-details">
+                        <h2 className="project-two-headline">Restaurateur</h2>
+                        <p className="project-three-detail">Want to try a new restaurant? Or can't decide what you're craving? Restaurateur can help. </p>
+                        <p className="project-two-detail-tech">Built with:</p>
+                        <p className="project-two-detail-ind-tech">REACT NATIVE | CSS | JAVASCRIPT | JSX </p>
                     </div>
                 </div>
                 </div>

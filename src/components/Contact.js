@@ -1,29 +1,23 @@
 import { useState } from "react";
+import { useForm, ValidationError } from '@formspree/react';
+
 
 function Contact(props) {
-    const [ newForm, setNewForm ] = useState({
-        name: "",
-        contact_method: "",
-        reason: "",
-    });
+    const [state, handleSubmit] = useForm("xpzbrljq");
 
-     // handleChange function for form
-    const handleChange = (event) => {
-        setNewForm({ ...newForm, [event.target.name]: event.target.value });
+    if (state.succeeded) {
+        return (
+            <div id="contact" className="contact">
+            <h2 className="contact-headline">Thanks reaching out! I'll be back in touch ASAP.</h2>
+            <div className="contact-information">
+            <div className="contact-icons">
+                <a href="https://www.linkedin.com/in/nicole-k-baird/" target="_blank"><img className="contact-icon" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643147894/Portfolio/linkedin_ag13wb.png" alt="linkedin" /></a>
+                <a href="https://github.com/nbaird4889" target="_blank"><img className="contact-icon" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643845017/Portfolio/github-port_xkduvy.png" alt="linkedin" /></a>
+            </div>
+            </div>
+        </div>
+        );
     }
-
-
-    // handle submit function for form
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        props.createPeople(newForm);
-        setNewForm({
-            name: "",
-            contact_method: "",
-            reason: "",
-        });
-    };
-
 
     return (
         <div id="contact" className="contact">
@@ -36,29 +30,41 @@ function Contact(props) {
                 <fieldset>
                     <label htmlFor="name">What's your name?</label>
                     <input
+                    id="name"
                     type="text"
-                    value={newForm.name}
                     name="name"
                     placeholder="Stevie Nicks"
-                    onChange={handleChange}
+                    />
+                    <ValidationError 
+                    prefix="Name" 
+                    field="name"
+                    errors={state.errors}
                     />
                     <label htmlFor="contact_method">How would you like me to reach you?</label>
                     <input
+                    id="contact_method"
                     type="text"
-                    value={newForm.contact_method}
                     name="contact_method"
                     placeholder="stevie.nicks@gmail.com"
-                    onChange={handleChange}
+                    />
+                    <ValidationError 
+                    prefix="Contact Method" 
+                    field="contact_method"
+                    errors={state.errors}
                     />
                     <label htmlFor="reason">What would you like to talk about?</label>
                     <input
+                    id="reason"
                     type="text"
-                    value={newForm.reason}
                     name="reason"
                     placeholder="Looking for developer for my new website"
-                    onChange={handleChange}
                     />
-                    <div className="btn-div"><input className="contact-btn" type="submit" value="Let's Chat!" /></div>
+                    <ValidationError 
+                    prefix="Reason" 
+                    field="reason"
+                    errors={state.errors}
+                    />
+                    <div className="btn-div"><input className="contact-btn" type="submit" disabled={state.submitting} value="Let's Chat!" /></div>
                     </fieldset>
                 </form>
             </section>
