@@ -16,11 +16,11 @@ function About() {
                 <p className="about-details">
                     While not working, I enjoy exploring Atlanta, and its great restaurants and breweries, with my husband and rescue dog. 
                 </p>
-                <a href="https://nicole-baird.s3.amazonaws.com/Nicole_Baird_Resume_2022.pdf" target="_blank" rel="noreferrer"><button className="about-btn">DOWNLOAD RESUME</button></a>
+                <a href="https://docs.google.com/document/d/1ly5YmTLiBtPeaXCEkmj3O44Oj8UDe684SW4mZeSQB4o/export?format=pdf" target="_blank" rel="noreferrer"><button className="about-btn">DOWNLOAD RESUME</button></a>
             </div>
             <div className="skills">
                 <h2 className="about-headline">A few of my skills</h2>
-                <img className="skill-image" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643844792/Portfolio/skills-port_ftvhu7.png" alt="skills"/>
+                <img className="skill-image" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1646337469/Portfolio/skills-icons_vdouuv.jpg" alt="skills"/>
             </div>
         </div>
     )
