@@ -7,12 +7,6 @@ function Portfolio(props) {
     const [cardShownTwo, setCardShownTwo] = useState({display: "none"}) 
     const [recordShownTwo, setRecordShownTwo] = useState({display: "block"})
 
-    const [cardShownThree, setCardShownThree] = useState({display: "none"}) 
-    const [recordShownThree, setRecordShownThree] = useState({display: "block"})
-
-    const [cardShownFour, setCardShownFour] = useState({display: "none"}) 
-    const [recordShownFour, setRecordShownFour] = useState({display: "block"})
-
     const [cardShownFive, setCardShownFive] = useState({display: "none"}) 
     const [recordShownFive, setRecordShownFive] = useState({display: "block"})
 
@@ -47,36 +41,6 @@ function Portfolio(props) {
          return (
              setCardShownTwo({display: "none"}),
              setRecordShownTwo({display: "block"})
-         )
-         
-     }
-
-     function changeBackgroundThree(e) {
-        return (
-            setCardShownThree({display: "block"}),
-            setRecordShownThree({display: "none"})
-        )
-     }
- 
-     function changeBackgroundBackThree(e) {
-         return (
-             setCardShownThree({display: "none"}),
-             setRecordShownThree({display: "block"})
-         )
-         
-     }
-
-     function changeBackgroundFour(e) {
-        return (
-            setCardShownFour({display: "block"}),
-            setRecordShownFour({display: "none"})
-        )
-     }
- 
-     function changeBackgroundBackFour(e) {
-         return (
-             setCardShownFour({display: "none"}),
-             setRecordShownFour({display: "block"})
          )
          
      }
@@ -166,7 +130,7 @@ function Portfolio(props) {
             <a className="project-link" href="https://github.com/nbaird4889/restaurateur.git" target="_blank" rel="noreferrer">
                 <div className="record-card">
                 <img style={recordShownSix} onMouseEnter={changeBackgroundSix} onMouseLeave={changeBackgroundBackSix} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1646340082/Portfolio/restaurants_h9r9cc.png" alt="project-Six" />
-                <div style={cardShownSix} className="project-card" id="project-three">
+                <div style={cardShownSix} className="project-card" id="project-two">
                     <div className="project-two-details">
                         <h2 className="project-two-headline">Restaurateur</h2>
                         <p className="project-three-detail">Want to try a new restaurant? Or can't decide what you're craving? Restaurateur can help. </p>
@@ -176,36 +140,6 @@ function Portfolio(props) {
                 </div>
                 </div>
             </a>
-
-                <a className="project-link" href="https://uga-football.netlify.app/" target="_blank" rel="noreferrer">
-                <div className="record-card">
-                <img style={recordShownThree} onMouseEnter={changeBackgroundThree} onMouseLeave={changeBackgroundBackThree} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643737629/Portfolio/football-disc_w2hzic.png" alt="project-three" />
-                <div style={cardShownThree} className="project-card" id="project-two">
-                    <div className="project-two-details">
-                        <h2 className="project-two-headline">UGA Football Legends</h2>
-                        <p className="project-three-detail">Checkout the Dawg legends who paved the way for the 2021 National champions!</p>
-                        <p className="project-two-detail-tech">Built with:</p>
-                        <p className="project-two-detail-ind-tech">HTML | CSS | JAVASCRIPT | MONGODB | EXPRESS | NODE.JS | REACT</p>
-                    </div>
-                </div>
-                </div>
-                </a>
-
-                <a className="project-link" href="https://s-and-p-500.netlify.app/" target="_blank" rel="noreferrer">
-                <div className="record-card">
-                <img style={recordShownFour} onMouseEnter={changeBackgroundFour} onMouseLeave={changeBackgroundBackFour} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643839131/Portfolio/stock-app_ce2yma.png" alt="project-four" />
-                <div style={cardShownFour} className="project-card" id="project-three">
-                    <div className="project-two-details">
-                        <h2 className="project-two-headline">S&P 500</h2>
-                        <p className="project-detail">By utilizing an API, the app lists all of the S&P 500 stocks and information on each one</p>
-                        <p className="project-two-detail-tech">Built with:</p>
-                        <p className="project-two-detail-ind-tech">HTML | CSS | JAVASCRIPT | AJAX | NODE.JS | REACT</p>
-                    </div>
-                </div>
-                </div>
-                </a>
-
-            
         </div>
         </div>
     )
