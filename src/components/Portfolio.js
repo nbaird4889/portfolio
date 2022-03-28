@@ -7,6 +7,10 @@ function Portfolio(props) {
     const [cardShownTwo, setCardShownTwo] = useState({display: "none"}) 
     const [recordShownTwo, setRecordShownTwo] = useState({display: "block"})
 
+    const [cardShownThree, setCardShownThree] = useState({display: "none"}) 
+    const [recordShownThree, setRecordShownThree] = useState({display: "block"})
+
+
     const [cardShownFive, setCardShownFive] = useState({display: "none"}) 
     const [recordShownFive, setRecordShownFive] = useState({display: "block"})
 
@@ -41,6 +45,21 @@ function Portfolio(props) {
          return (
              setCardShownTwo({display: "none"}),
              setRecordShownTwo({display: "block"})
+         )
+         
+     }
+
+     function changeBackgroundThree(e) {
+        return (
+            setCardShownThree({display: "block"}),
+            setRecordShownThree({display: "none"})
+        )
+     }
+ 
+     function changeBackgroundBackThree(e) {
+         return (
+             setCardShownThree({display: "none"}),
+             setRecordShownThree({display: "block"})
          )
          
      }
@@ -136,6 +155,20 @@ function Portfolio(props) {
                         <p className="project-three-detail">Want to try a new restaurant? Or can't decide what you're craving? Restaurateur can help. </p>
                         <p className="project-two-detail-tech">Built with:</p>
                         <p className="project-two-detail-ind-tech">REACT NATIVE | CSS | JAVASCRIPT | JSX </p>
+                    </div>
+                </div>
+                </div>
+            </a>
+
+            <a className="project-link" href="https://github.com/nbaird4889/tic-tac-toe" target="_blank" rel="noreferrer">
+                <div className="record-card">
+                <img style={recordShownThree} onMouseEnter={changeBackgroundThree} onMouseLeave={changeBackgroundBackThree} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1648482758/Portfolio/porfolio-tic-tac-toe_qzbkwd.png" alt="project-Six" />
+                <div style={cardShownThree} className="project-card" id="project-three">
+                    <div className="project-two-details">
+                        <h2 className="project-headline">tic-tac-toe</h2>
+                        <p className="project-three-detail">An old favorite. Play a classic game of tic-tac-toe!</p>
+                        <p className="project-two-detail-tech">Built with:</p>
+                        <p className="project-two-detail-ind-tech">REACT | CSS | JAVASCRIPT | JSX </p>
                     </div>
                 </div>
                 </div>
