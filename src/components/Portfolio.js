@@ -160,7 +160,7 @@ function Portfolio(props) {
                 </div>
             </a>
 
-            <a className="project-link" href="https://github.com/nbaird4889/tic-tac-toe" target="_blank" rel="noreferrer">
+            <a className="project-link" href="https://tic-tact-toe.netlify.app/" target="_blank" rel="noreferrer">
                 <div className="record-card">
                 <img style={recordShownThree} onMouseEnter={changeBackgroundThree} onMouseLeave={changeBackgroundBackThree} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1648482758/Portfolio/porfolio-tic-tac-toe_qzbkwd.png" alt="project-Six" />
                 <div style={cardShownThree} className="project-card" id="project-three">
