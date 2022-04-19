@@ -2,8 +2,8 @@ import {Link} from "react-router-dom"
 function Video() {
     return (
         <div className="video">
-            <video id="background-video" autoPlay loop muted poster="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643739366/Portfolio/Screen_Shot_2022-02-01_at_1.15.52_PM_clj76n.png">
-                    <source src='https://res.cloudinary.com/dhbumhhh1/video/upload/v1642990188/Portfolio/Untitled_xcf05o.mp4' type="video/mp4" />
+            <video id="background-video" autoPlay loop muted poster="https://res.cloudinary.com/dhbumhhh1/image/upload/v1650375691/Portfolio/Screen_Shot_2022-04-19_at_9.38.34_AM-min_bir61o.png">
+                    <source src='https://res.cloudinary.com/dhbumhhh1/video/upload/v1650375434/Portfolio/Untitled_xcf05o_1_f1ta7o.mp4' type="video/mp4" />
             </video>
             <div className="entry-details">
                 <div className="entry-headlines">
