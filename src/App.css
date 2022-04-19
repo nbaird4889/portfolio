@@ -41,6 +41,11 @@ a, button {
     filter: brightness(80%)
 }
 
+.entry-headlines, .overlay-box {
+    background: rgba(0, 0, 0, .4);
+    padding: 10px 20px;
+}
+
 .entry-details {
       font-family: LEMONMILK;
       color: white;
