@@ -71,7 +71,7 @@ function Contact(props) {
             </div>
             <div className="contact-icons">
                 <a href="https://www.linkedin.com/in/nicole-k-baird/" target="_blank"><img className="contact-icon" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643147894/Portfolio/linkedin_ag13wb.png" alt="linkedin" /></a>
-                <a href="https://github.com/nbaird4889" target="_blank"><img className="contact-icon" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643845017/Portfolio/github-port_xkduvy.png" alt="linkedin" /></a>
+                <a href="https://github.com/nbaird4889" target="_blank"><img className="contact-icon" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1650375046/Portfolio/github-port_xkduvy_zcwaat.png" alt="github" /></a>
             </div>
             </div>
         </div>

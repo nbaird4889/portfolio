@@ -120,7 +120,7 @@ h1 {
 
 /* ===========Header========== */
 .header {
-    background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/v1643139612/Portfolio/header_y7yzlt.png");
+    background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/v1650374169/Portfolio/header_y7yzlt-min_ea3d33.png");
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
@@ -505,7 +505,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     padding: 30px 80px;
-    background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/c_scale,w_2000/v1644525115/giorgio-trovato-8_LhgVjT6KQ-unsplash_nsnxep.jpg");
+    background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/v1650374539/Portfolio/giorgio-trovato-8_LhgVjT6KQ-unsplash_nsnxep_1_h9kzrr.jpg");
     background-size: cover;
     margin: 25px 180px 0px 180px;
     border: 2px solid black;
@@ -646,7 +646,7 @@ input:focus {
     }
 
     .video {
-        background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/v1643754368/Portfolio/homepage-mobile_zxpelh.png");
+        background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/v1650374058/Portfolio/mobile-background_qwekha-min_w37cww.png");
         background-size: cover;
         background-position: 85% 50%;
         background-repeat: no-repeat;

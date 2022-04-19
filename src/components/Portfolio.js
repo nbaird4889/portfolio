@@ -106,7 +106,7 @@ function Portfolio(props) {
 
                 <a className="project-link" href="https://project-two-reco.herokuapp.com/" target="_blank" rel="noreferrer">
                 <div className="record-card">
-                <img style={recordShownTwo} onMouseEnter={changeBackgroundTwo} onMouseLeave={changeBackgroundBackTwo} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643477309/Portfolio/recommendations-port_dcfuo5.png" alt="project-two" />
+                <img style={recordShownTwo} onMouseEnter={changeBackgroundTwo} onMouseLeave={changeBackgroundBackTwo} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1650374843/Portfolio/recommendations-port_dcfuo5_1_ahb4bw.png" alt="project-two" />
                 <div style={cardShownTwo} className="project-card" id="project-two">
                     <div className="project-two-details">
                         <h2 className="project-two-headline">Recommendation Application</h2>
@@ -120,7 +120,7 @@ function Portfolio(props) {
 
                 <a className="project-link" href="https://atlanta-bucketlist.netlify.app/" target="_blank" rel="noreferrer">
                 <div className="record-card">
-                    <img style={recordShownOne} onMouseEnter={changeBackgroundOne} onMouseLeave={changeBackgroundBackOne} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643145893/Portfolio/project-one_agzw2w.png" alt="project-one" />
+                    <img style={recordShownOne} onMouseEnter={changeBackgroundOne} onMouseLeave={changeBackgroundBackOne} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1650374843/Portfolio/project-one_agzw2w_1_ckjpvc.png" alt="project-one" />
                     <div style={cardShownOne} className="project-card" id="project-three">
                         <div className="project-details">
                             <h2 className="project-headline">Atlanta BucketList</h2>
@@ -134,7 +134,7 @@ function Portfolio(props) {
 
             <a className="project-link" href="https://my-sustainable-brands.netlify.app/" target="_blank" rel="noreferrer">
                 <div className="record-card">
-                <img style={recordShownFive} onMouseEnter={changeBackgroundFive} onMouseLeave={changeBackgroundBackFive} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1643922916/Portfolio/msb-icons_qvjcel.png" alt="project-five" />
+                <img style={recordShownFive} onMouseEnter={changeBackgroundFive} onMouseLeave={changeBackgroundBackFive} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1650374843/Portfolio/msb-icons_qvjcel_1_kkimdd.png" alt="project-five" />
                 <div style={cardShownFive} className="project-card">
                     <div className="project-two-details">
                         <h2 className="project-two-headline">My Sustainable Brands</h2>
@@ -148,7 +148,7 @@ function Portfolio(props) {
 
             <a className="project-link" href="https://github.com/nbaird4889/restaurateur.git" target="_blank" rel="noreferrer">
                 <div className="record-card">
-                <img style={recordShownSix} onMouseEnter={changeBackgroundSix} onMouseLeave={changeBackgroundBackSix} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1646340082/Portfolio/restaurants_h9r9cc.png" alt="project-Six" />
+                <img style={recordShownSix} onMouseEnter={changeBackgroundSix} onMouseLeave={changeBackgroundBackSix} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1650374843/Portfolio/restaurants_h9r9cc_1_lf9khy.png" alt="project-Six" />
                 <div style={cardShownSix} className="project-card" id="project-two">
                     <div className="project-two-details">
                         <h2 className="project-two-headline">Restaurateur</h2>
@@ -162,7 +162,7 @@ function Portfolio(props) {
 
             <a className="project-link" href="https://tic-tact-toe.netlify.app/" target="_blank" rel="noreferrer">
                 <div className="record-card">
-                <img style={recordShownThree} onMouseEnter={changeBackgroundThree} onMouseLeave={changeBackgroundBackThree} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1648482758/Portfolio/porfolio-tic-tac-toe_qzbkwd.png" alt="project-Six" />
+                <img style={recordShownThree} onMouseEnter={changeBackgroundThree} onMouseLeave={changeBackgroundBackThree} className="record" src="https://res.cloudinary.com/dhbumhhh1/image/upload/v1650374843/Portfolio/porfolio-tic-tac-toe_qzbkwd_1_zuwhdv.png" alt="project-Six" />
                 <div style={cardShownThree} className="project-card" id="project-three">
                     <div className="project-two-details">
                         <h2 className="project-headline">tic-tac-toe</h2>
